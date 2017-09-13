@@ -8,8 +8,37 @@ body
   justify-content: inherit
   width: 800px
 
-#home-page
+main
+  position: relative
   display: inherit
-  background-image: url('../img/Accueil-Sanroce_800X800_72dpi_notranche.png')
   height: 750px
   width: 750px
+
+#home-page
+  background-image: url('../img/Accueil-Sanroce_800X800_72dpi_notranche.png')
+
+nav
+  position: absolute
+  display: flex
+  flex-direction: column
+  justify-content: space-between
+  top: 315px
+  height: 95px
+
+.nav-left
+  left: $nav-from-borders
+  width: 114px
+
+.nav-right
+  right: $nav-from-borders
+  width: 100px
+
+  a:first-child
+    height: 48px
+
+a
+  height: 37px
+
+img
+  border-radius: 8px
+  box-shadow: 3px 0 6px rgba(0, 0, 0, 0.8)
