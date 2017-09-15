@@ -3,13 +3,13 @@ layout: default
 ---
 <section id="home-page">
   <nav class="nav-left">
-    <a href="#"><img src="../assets/img/history.png" alt="Historique"></a>
-    <a href="#"><img src="../assets/img/our_beers.png" alt="Nos bières"></a>
+    {% include nav_history.html %}
+    {% include nav_beers.html %}
   </nav>
 
   <nav class="nav-right">
-    <a href="#"><img src="../assets/img/find_us.png" alt="Où nous trouver"></a>
-    <a href="#"><img src="../assets/img/contact.png" alt="Contact"></a>
+    {% include nav_find.html %}
+    {% include nav_contact.html %}
   </nav>
 
   {% include tiny_footer.html %}
