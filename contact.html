@@ -11,3 +11,26 @@ permalink: /contact/
   {% include nav_beers.html %}
   {% include nav_find.html %}
 </nav>
+
+<img id="plan" src="../assets/img/Page-Sanroce_plan_big.jpg" alt="Plan" width="167" height="167">
+
+<div id="myModal" class="modal">
+  <span class="close">×</span>
+  <img class="modal-content" id="plan-modal" src="../assets/img/Page-Sanroce_plan_big.jpg">
+  <div id="caption"></div>
+</div>
+
+<main class="contact">
+  <h1>BRASSERIE SAN ROCÉ</h1>
+  <h2>QUILLEVRANT - 44170 JANS</h2>
+  <h2>02 40 51 72 46</h2>
+  <p>brasseriesanrocejd@yahoo.fr</p>
+  <form action="https://formspree.io/air1bzz@gmail.com" method="POST" id="contact-form">
+    <input type="hidden" name="_language" value="fr" />
+    <label for="email">Votre adresse mail</label>
+    <input type="email" name="email" id="email">
+    <label for="query">Votre Demande</label>
+    <textarea name="demande" id="query" rows="13" cols="80"></textarea>
+    <input type="submit" value="Envoyer">
+  </form>
+</main>
